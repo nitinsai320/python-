@@ -1,0 +1,10 @@
+sname=input("Enter the Student Name\n")
+sno=int(input("Enter the Student Roll No\n"))
+group=input("Enter the Student Group\n")
+s1=int(input("Enter the Maths Marks\n"))
+s2=int(input("Enter the Physics Marks\n"))
+s3=int(input("Enter the Chemistry Marks\n"))
+if(s1>=40 or s2>=40 or s3>=40):
+        print("Pass")
+else:
+    print("Fail")
