@@ -1,0 +1,21 @@
+sname=input("Enter the Student Name \n")
+sno=int(input("Enter the Student No \n"))
+group=input("Enter the Group Name \n")
+s1=int(input("Enter the Maths Marks \n"))
+s2=int(input("Enter the Physics Marks \n"))
+s3=int(input("Enter the Chesmistry Marks \n"))
+total=s1+s2+s3
+avg=total/3
+if avg>=90:
+    print("O Grade")
+elif avg>=80:
+    print("A Grade")
+
+elif avg>=70:
+    print("B Grade")
+elif avg>=60:
+    print("C Grade")
+elif avg>=50:
+    print("D Grade")
+else:
+    print ("PASS")
