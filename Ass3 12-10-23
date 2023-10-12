@@ -1,0 +1,5 @@
+n=int(input("Enter the Number\n"))
+if n>0:
+    print("+ve Number")
+else:
+    print("-ve Number")
